@@ -1,0 +1,72 @@
+{
+  "_from": "codepage-encoder-savanitdev@^1.0.0",
+  "_id": "codepage-encoder-savanitdev@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-wlJs62tqO8gFKp0wpvrNy0gqiSkzwjyClwPvelfjLzNJ2S2m3uLJJDoA3DqgxkIwB8/ayese+vlSNWSzatALxg==",
+  "_location": "/codepage-encoder-savanitdev",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "codepage-encoder-savanitdev@^1.0.0",
+    "name": "codepage-encoder-savanitdev",
+    "escapedName": "codepage-encoder-savanitdev",
+    "rawSpec": "^1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.0"
+  },
+  "_requiredBy": [
+    "/esc-pos-encoder"
+  ],
+  "_resolved": "https://registry.npmjs.org/codepage-encoder-savanitdev/-/codepage-encoder-savanitdev-1.0.0.tgz",
+  "_shasum": "f8b70f975ff69d9c5533f9c8807de839ad1d09ab",
+  "_spec": "codepage-encoder-savanitdev@^1.0.0",
+  "_where": "/Users/phuthiyen/Desktop/freelance/Expo/node/node_modules/esc-pos-encoder",
+  "author": {
+    "name": "Niels Leenheer"
+  },
+  "bugs": {
+    "url": "https://github.com/savanitdev/CodepageEncoderSavanitdev/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A library for converting Unicode to obscure single byte codepage for use with thermal printers.",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.39.0",
+    "eslint-config-google": "^0.14.0",
+    "iconv-lite": "^0.6.3",
+    "mocha": "^10.2.0",
+    "rollup": "^3.20.7"
+  },
+  "exports": {
+    "import": "./dist/codepage-encoder-savanitdev.mjs",
+    "require": "./dist/codepage-encoder-savanitdev.cjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/savanitdev/CodepageEncoderSavanitdev#readme",
+  "keywords": [
+    "codepage",
+    "unicode",
+    "receipt",
+    "printer"
+  ],
+  "license": "MIT",
+  "main": "dist/codepage-encoder-savanitdev.cjs",
+  "module": "dist/codepage-encoder-savanitdev.mjs",
+  "name": "codepage-encoder-savanitdev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savanitdev/CodepageEncoderSavanitdev.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint --fix src/codepage-encoder-savanitdev.js",
+    "mocha": "mocha test/",
+    "test": "npm run lint && npm run mocha"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
