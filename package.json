@@ -1,6 +1,6 @@
 {
-  "_from": "codepage-encoder-savanitdev@^1.0.0",
-  "_id": "codepage-encoder-savanitdev@1.0.0",
+  "_from": "codepage-encoder-savanitdev@^1.0.1",
+  "_id": "codepage-encoder-savanitdev@1.0.1",
   "_inBundle": false,
   "_integrity": "sha512-wlJs62tqO8gFKp0wpvrNy0gqiSkzwjyClwPvelfjLzNJ2S2m3uLJJDoA3DqgxkIwB8/ayese+vlSNWSzatALxg==",
   "_location": "/codepage-encoder-savanitdev",
@@ -8,19 +8,19 @@
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "codepage-encoder-savanitdev@^1.0.0",
+    "raw": "codepage-encoder-savanitdev@^1.0.1",
     "name": "codepage-encoder-savanitdev",
     "escapedName": "codepage-encoder-savanitdev",
-    "rawSpec": "^1.0.0",
+    "rawSpec": "^1.0.1",
     "saveSpec": null,
-    "fetchSpec": "^1.0.0"
+    "fetchSpec": "^1.0.1"
   },
   "_requiredBy": [
     "/esc-pos-encoder"
   ],
-  "_resolved": "https://registry.npmjs.org/codepage-encoder-savanitdev/-/codepage-encoder-savanitdev-1.0.0.tgz",
+  "_resolved": "https://registry.npmjs.org/codepage-encoder-savanitdev/-/codepage-encoder-savanitdev-1.0.1.tgz",
   "_shasum": "f8b70f975ff69d9c5533f9c8807de839ad1d09ab",
-  "_spec": "codepage-encoder-savanitdev@^1.0.0",
+  "_spec": "codepage-encoder-savanitdev@^1.0.1",
   "_where": "/Users/phuthiyen/Desktop/freelance/Expo/node/node_modules/esc-pos-encoder",
   "author": {
     "name": "Niels Leenheer"
@@ -68,5 +68,5 @@
     "test": "npm run lint && npm run mocha"
   },
   "type": "module",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
